@@ -3,5 +3,9 @@ import PackageDescription
 
 
 let package = Package(
-    name: "CommonCrypto"
+    name: "CommonCrypto",
+    products: [.library(name: "CommonCrypto", targets: ["CommonCrypto"])],
+    targets: [.target(
+      name: "CommonCrypto"
+    )
 )
