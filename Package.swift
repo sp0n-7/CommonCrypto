@@ -7,5 +7,5 @@ let package = Package(
     products: [.library(name: "CommonCrypto", targets: ["CommonCrypto"])],
     targets: [.target(
       name: "CommonCrypto"
-    )
+    )]
 )
